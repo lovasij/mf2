@@ -2,3 +2,7 @@ Paul Baran: https://en.wikipedia.org/wiki/Paul_Baran
 Vannevar Bush: https://en.wikipedia.org/wiki/Vannevar_Bush és chat.openai.com
 Vinton Cerf: chat.openai.com és https://hu.wikipedia.org/wiki/Vint_Cerf
 Douglas Engelbart: https://hu.wikipedia.org/wiki/Douglas_Engelbart és chat.openai.com
+Robert E. Kahn: https://hu.wikipedia.org/wiki/Bob_Kahn és chat.openai.com
+J.C.R. Licklider: chat.openai.com és https://en.wikipedia.org/wiki/J._C._R._Licklider
+Robert Metcalfe: chat.openai.com és https://en.wikipedia.org/wiki/Robert_Metcalfe
+Lawrence Roberts: https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist) és chat.openai.com

@@ -34,6 +34,42 @@ Engelbart nevéhez köthető az egér feltalálása is, amelyet először 1964-b
 Engelbart továbbá a hipertext fogalmát is előrevitte. A hipertext lehetővé teszi a felhasználók számára, hogy nem lineáris módon navigáljanak az információk között, és hivatkozzanak más dokumentumokra vagy helyekre az adott dokumentumban. Ez a fogalom később alapvető fontosságúvá vált az internetes böngészés és az információkeresés szempontjából.
 Engelbart munkássága nagy hatással volt a számítástechnika és az információtechnológia fejlődésére. A számítógépes egér és az általa inspirált felhasználói interfész-koncepciók forradalmasították a számítógépes technológiákat, és lehetővé tették az emberek számára, hogy könnyebben és hatékonyabban kommunikáljanak és dolgozzanak a digitális környezetben. Engelbartot gyakran az informatikai világ egyik legnagyobb visionáriusaként emlegetik.
 
+Robert E. Kahn:
+1938. december 23 - napjainkig
+Amerikai informatikus, aki szorosan együttműködött Vinton Cerf-fel az internet protokolljainak (TCP/IP) kifejlesztésében. Kahn munkássága nagyban hozzájárult az internet kialakításához és terjesztéséhez, ami az emberiség számára az egyik legjelentősebb kommunikációs és információfeldolgozási eszköz lett.
+Kahnnek és Cerfnek sikerült létrehozniuk az internet működéséhez szükséges protokollt, amely az adatok hatékony átvitelét és kommunikációját teszi lehetővé a hálózaton keresztül. Ez a TCP/IP protokollrendszer az internet alapvető működési elve, és a mai napig alapját képezi az online kommunikáció és az adatátvitel számára.
+Kahn számos más fontos tisztséget is betöltött az informatikai iparban és a kutatásban. Dolgozott az ARPA (Advanced Research Projects Agency) munkatársaként, ahol az internet kialakításában játszott szerepét kezdetben megkezdte. Később az Elektronikus Közösségi Hálózatok Intézetének (Corporation for National Research Initiatives) elnökeként és az Internet Society társalapítójaként is tevékenykedett.
+Kahn hatalmas elismerést kapott munkájáért az internet terjesztésében és fejlesztésében. 2004-ben, együtt Vinton Cerf-fel, megkapta a Nemzeti Technológiai Érdemrendet az internet protokolljainak kifejlesztéséért és terjesztéséért. Kahn továbbra is aktív szereplője az informatikai világnak, és továbbra is támogatja az internetes technológiák fejlődését és terjesztését.
+
+J.C.R. Licklider:
+1915. március 11 - 1990. június 26.
+Amerikai pszichológus és informatikus volt, aki kulcsszerepet játszott az informatika és a számítástechnika korai fejlődésében. Licklider jelentős hozzájárulást tett az interaktív számítógépes rendszerek, valamint az ember-gép interfészek kutatásához és fejlesztéséhez. A legjelentősebb munkái közé tartozik az "Intergalactic Computer Network" című esszéje, amelyben előrevetítette az internet kialakulásának alapjait.
+Licklider számos fontos pozíciót töltött be az Egyesült Államokban az információtechnológia területén. Dolgozott az ARPA (Advanced Research Projects Agency) munkatársaként, ahol fontos szerepet játszott az ARPANET (az internet elődje) koncepciójának kidolgozásában. Licklider megértette a számítógépek és az emberi felhasználók közötti hatékony kommunikáció és együttműködés fontosságát, és hozzájárult az interaktív számítógépes rendszerek kialakításához és fejlesztéséhez.
+Az "Intergalactic Computer Network" esszéjében Licklider olyan elképzeléseket vetített előre, amelyek alapján a számítógépek hálózatba kapcsolódva interaktív módon tudnak kommunikálni és együttműködni egymással és az emberekkel. Ez az esszé kulcsfontosságú inspirációt nyújtott későbbi kutatóknak és fejlesztőknek az internet létrehozásában és fejlesztésében.
+Licklider életében számos elismerést kapott munkásságáért az informatika és a számítástechnika területén. A jelenlegi internetes környezet alapvetően épül Licklider elképzeléseire és javaslataira, és hatalmas hatást gyakorol az emberiség mindennapi életére és kommunikációjára.
+
+Robert Metcalfe:
+1946. április 7 -napjainkig.
+Amerikai informatikus és vállalkozó, aki az Ethernet hálózati technológia megalkotója. Metcalfe munkássága nagyban hozzájárult az adatok gyors és hatékony átviteléhez a helyi hálózatokon keresztül, ami alapvető fontosságúvá vált a modern informatikai rendszerekben.
+Metcalfe az Xerox PARC (Xerox Palo Alto Research Center) munkatársaként dolgozott az 1970-es évek elején, ahol az Ethernetet fejlesztette ki, egy olyan helyi hálózati technológiát, amely lehetővé teszi a számítógépek közötti kommunikációt. Az Ethernet protokollrendszer létrehozása forradalmasította a helyi hálózatokat, és az alapját képezte a modern számítógépes hálózatoknak.
+Metcalfe később elhagyta az Xeroxot, hogy megalapítsa az 3Com Corporation nevű vállalatot, amely a számítógépes hálózati eszközök gyártására és értékesítésére specializálódott. Az Ethernet szabványosítása és elterjesztése hatalmas siker volt, és a 3Com jelentős szerepet játszott ebben a folyamatban.
+Metcalfe vállalkozóként és technológiai tanácsadóként is tevékenykedett. A számítógépes hálózatok terén elért eredményeiért számos elismerést és díjat kapott. Metcalfe életpályája és munkássága jelentős hatást gyakorolt az informatikai iparra és a modern technológia fejlődésére, különösen a hálózati kommunikáció terén.
+
+Lawrence Roberts:
+1937. december 21 - 2018. december 26.
+Amerikai informatikus és mérnök volt, aki kiemelkedő szerepet játszott az ARPANET létrehozásában, amely az internet elődje volt. Roberts számos fontos technológiai innovációban vett részt, amelyek meghatározóak voltak az internetes kommunikáció és adatátvitel fejlődésében.
+Roberts az ARPANET projekt vezetője volt az ARPA (Advanced Research Projects Agency) munkatársaként az 1960-as évek végén és az 1970-es évek elején. Az ARPANET az első kísérleti számítógépes hálózat volt, amelyet a katonai kutatás finanszírozott az Egyesült Államokban. Roberts irányítása alatt a kutatócsoport megalkotta az ARPANET alapvető protokolljait és technológiáit, amelyek lehetővé tették a számítógépek közötti kommunikációt és adatcsere folyamatát.
+A legfontosabb hozzájárulása a hálózatok területén az volt, hogy felismerte az adatok címzésének és útvonalválasztásának fontosságát. Elkészítette az ARPANET hálózatához szükséges protokollokat és algoritmusokat, amelyek lehetővé tették az adatok csomagokba szervezését és továbbítását a hálózaton keresztül.
+Roberts később más fontos szerepet is vállalt az informatikai iparban. Alapította a Telenet nevű vállalatot, amely az első kereskedelmi számítógépes hálózatot hozta létre az Egyesült Államokban. Továbbá tanácsadóként és technológiai vezetőként tevékenykedett különböző informatikai vállalatoknál.
+Lawrence Roberts hagyatéka az internet és a modern hálózati technológiák terén maradandó. Munkája hozzájárult az internetes kommunikáció forradalmi fejlődéséhez és az információ világméretű elérhetőségének lehetővé tételéhez.
+
+
+
+
+
+
+
+
 
 
 
