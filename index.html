@@ -9,28 +9,6 @@
 </head>
 <body>
     <img id="hu-en" class="zaszlok" src="images/angol-magyar-zaszlo.jpg" alt="Angol nyelv" title="nyelv váltás">
-    <script>
-        let nyelv = "hu";
-
-        function nyelvvalt() {
-            if (nyelv === "hu") {
-                document.getElementById("h1").textContent = "What is this page about?";
-                document.getElementById("p1").textContent = "This page is about 8 scientists who participated in the development of the Internet!";        
-                document.getElementById("p2").textContent = "These eight scientists:";    
-                document.getElementById("p3").textContent = "We write about their work separately.";
-                nyelv = "en";
-            } else if (nyelv === "en") {
-                document.getElementById("h1").textContent = "Miről szól ez az oldal?";
-                document.getElementById("p1").textContent = "Ez az oldal 8 db tudósról szól akik részt vettek az internet fejlődésében!";        
-                document.getElementById("p2").textContent = "Ez a nyolc tudós:";    
-                document.getElementById("p3").textContent = "Az ő munkásságukról írunk külön-külön is.";
-                nyelv = "hu";
-            }
-        }
-
-        document.getElementById("hu-en").addEventListener("click", nyelvvalt);
-            
-    </script>
      <h1 id="h1">Miről szól ez az oldal?</h1>
      <p id="p1">Ez az oldal 8 db tudósról szól akik részt vettek az internet fejlődésében!</p>
      <p id="p2">Ez a nyolc tudós:</p>
@@ -45,5 +23,25 @@
             <li>Lawrence Roberts</li>
          </ul>
      <p id="p3">Az ő munkásságukról írunk külön-külön is.</p>
+     <p><br><a id="a1" href="pages/tudosok.html">itt</a></p>
+     <script>
+         let nyelv = "hu";
+function nyelvvalt() {
+    if (nyelv === "hu") {
+        document.getElementById("h1").textContent = "What is this page about?";
+        document.getElementById("p1").textContent = "This page is about 8 scientists who participated in the development of the Internet!";        
+        document.getElementById("p2").textContent = "These eight scientists:";    
+        document.getElementById("p3").textContent = "We write about their work separately.";
+        document.getElementById("a1").innerHTML = "here"
+        nyelv = "en";
+    } else if (nyelv === "en") {
+        document.getElementById("h1").textContent = "Miről szól ez az oldal?";
+        document.getElementById("p1").textContent = "Ez az oldal 8 db tudósról szól akik részt vettek az internet fejlődésében!";        
+        document.getElementById("p2").textContent = "Ez a nyolc tudós:";    
+        document.getElementById("p3").textContent = "Az ő munkásságukról írunk külön-külön is.";
+    document.getElementById("a1").innerHTML = "itt"        
+        nyelv = "hu";}}
+document.getElementById("hu-en").addEventListener("click", nyelvvalt);
+    </script>
 </body>
 </html>
