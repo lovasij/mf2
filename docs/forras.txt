@@ -12,3 +12,5 @@ Paul_Baran munkássága:https://www.hte.hu/documents/10180/4688533/PB_message_bl
 Vannevar Bush munkássága: https://slideplayer.hu/slide/2210849/8/images/3/Vannevar+Bush+Ted+Nelson+Tim+Berners-Lee+MEMEX+XANADU+WWW.jpg
 Vint_Cerf munkássága: https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325
 Douglas_Engelbart munkássága: https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg
+J.C.R: https://en.wikipedia.org/wiki/J._C._R._Licklider
+Lawrence: https://en.wikipedia.org/wiki/Interface_Message_Processor
