@@ -1,0 +1,29 @@
+Miről szól ez az oldal?
+
+Ez az oldal 8 db tudósról szól akik részt vettek az internet fejlődésében!
+Ez a nyolc tudós:
+	Paul Baran
+	Vannevar Bush
+	Vinton Cerf
+	Douglas Engelbart
+	Robert E. Kahn
+	J.C.R. Licklider
+	Robert Metcalfe
+	Lawrence Roberts
+
+Az ő munkásságukról írunk külön-külön is.
+
+What is this page about?
+
+This page is about 8 scientists who participated in the development of the Internet!
+These eight scientists:
+	Paul Baran
+	Vannevar Bush
+	Vinton Cerf
+	Douglas Engelbart
+	Robert E. Kahn
+	J.C.R. Licklider
+	Robert Metcalfe
+	Lawrence Roberts
+
+We write about their work separately.
