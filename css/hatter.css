@@ -13,4 +13,7 @@ div {
     padding: 60%;
     margin: auto auto;
 }
-
+#p3 {
+    float: left;
+    display: block;
+}
