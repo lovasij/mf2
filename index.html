@@ -8,21 +8,42 @@
     <title>Internet legendái</title>
 </head>
 <body>
-    <img class="zaszlok" src="images/zaszlok/angol2_zaszlo.png" alt="Angol nyelv" title="Angol nyelvre váltás">
-    <img class="zaszlok" src="images/zaszlok/magyar_zaszlo.png" alt="Magyar nyelv" title="Magyar nyelvre váltás">
-    <p>Miről szól ez az oldal?</p>
-    <p>Ez az oldal 8 db tudósról szól akik részt vettek az internet fejlődésében!</p>
-    <p>Ez a nyolc tudós:
-        Paul Baran,
-        Vannevar Bush,
-        Vinton Cerf,
-        Douglas Engelbart,
-        Robert E. Kahn,
-        J.C.R. Licklider,
-        Robert Metcalfe,
-        Lawrence Roberts,
-    </p>
-    <p>Az ő munkásságukról írunk külön-külön is.</p>
+    <img id="hu-en" class="zaszlok" src="images/angol-magyar-zaszlo.jpg" alt="Angol nyelv" title="nyelv váltás">
+    <script>
+        let nyelv = "hu";
 
+        function nyelvvalt() {
+            if (nyelv === "hu") {
+                document.getElementById("h1").textContent = "What is this page about?";
+                document.getElementById("p1").textContent = "This page is about 8 scientists who participated in the development of the Internet!";        
+                document.getElementById("p2").textContent = "These eight scientists:";    
+                document.getElementById("p3").textContent = "We write about their work separately.";
+                nyelv = "en";
+            } else if (nyelv === "en") {
+                document.getElementById("h1").textContent = "Miről szól ez az oldal?";
+                document.getElementById("p1").textContent = "Ez az oldal 8 db tudósról szól akik részt vettek az internet fejlődésében!";        
+                document.getElementById("p2").textContent = "Ez a nyolc tudós:";    
+                document.getElementById("p3").textContent = "Az ő munkásságukról írunk külön-külön is.";
+                nyelv = "hu";
+            }
+        }
+
+        document.getElementById("hu-en").addEventListener("click", nyelvvalt);
+            
+    </script>
+     <h1 id="h1">Miről szól ez az oldal?</h1>
+     <p id="p1">Ez az oldal 8 db tudósról szól akik részt vettek az internet fejlődésében!</p>
+     <p id="p2">Ez a nyolc tudós:</p>
+         <ul>
+            <li id="li1">Paul Baran</li>
+            <li id="li2">Vannevar Bush</li>
+            <li id="li3">Vinton Cerf</li>
+            <li id="li4">Douglas Engelbart</li>
+            <li id="li5">Robert E. Kahn</li>
+            <li id="li6">J.C.R. Licklider</li>
+            <li id="li7">Robert Metcalfe</li>
+            <li id="li8">Lawrence Roberts</li>
+         </ul>
+     <p id="p3">Az ő munkásságukról írunk külön-külön is.</p>
 </body>
 </html>
