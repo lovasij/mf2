@@ -1,10 +1,10 @@
-Paul Baran: https://en.wikipedia.org/wiki/Paul_Baran
-Vannevar Bush: https://en.wikipedia.org/wiki/Vannevar_Bush és chat.openai.com
-Vinton Cerf: chat.openai.com és https://hu.wikipedia.org/wiki/Vint_Cerf
-Douglas Engelbart: https://hu.wikipedia.org/wiki/Douglas_Engelbart és chat.openai.com
-Robert E. Kahn: https://hu.wikipedia.org/wiki/Bob_Kahn és chat.openai.com
-J.C.R. Licklider: chat.openai.com és https://en.wikipedia.org/wiki/J._C._R._Licklider
-Robert Metcalfe: chat.openai.com és https://en.wikipedia.org/wiki/Robert_Metcalfe
-Lawrence Roberts: https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist) és chat.openai.com
+Paul Baran: https://en.wikipedia.org/wiki/Paul_Baran   ugyanaz az angol
+Vannevar Bush: https://en.wikipedia.org/wiki/Vannevar_Bush és chat.openai.com     ugyanaz az angol
+Vinton Cerf: chat.openai.com és https://hu.wikipedia.org/wiki/Vint_Cerf          ugyanaz az angol
+Douglas Engelbart: https://hu.wikipedia.org/wiki/Douglas_Engelbart és chat.openai.com      ugyanaz az angol
+Robert E. Kahn: https://hu.wikipedia.org/wiki/Bob_Kahn és chat.openai.com          ugyanaz az angol
+J.C.R. Licklider: chat.openai.com és https://en.wikipedia.org/wiki/J._C._R._Licklider    ugyanaz az angol
+Robert Metcalfe: chat.openai.com és https://en.wikipedia.org/wiki/Robert_Metcalfe          ugyanaz az angol
+Lawrence Roberts: https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist) és chat.openai.com      ugyanaz az angol
 Magyar zászló:https://www.google.com/url?sa=i&url=https%3A%2F%2Fhiroszaszlo.hu%2Ftermek%2Fmagyar-zaszlo-cimer-nelkul%2F&psig=AOvVaw3D2dyZZYTy0eIBXzkl9RMc&ust=1707995530277000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIDJyanZqoQDFQAAAAAdAAAAABBM
 Angol zászló:https://www.google.com/url?sa=i&url=https%3A%2F%2Fhu.wikipedia.org%2Fwiki%2FAz_Egyes%25C3%25BClt_Kir%25C3%25A1lys%25C3%25A1g_z%25C3%25A1szlaja&psig=AOvVaw2pcJ3nj5MEdHnuZNTqJGY3&ust=1707996141785000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjl2czbqoQDFQAAAAAdAAAAABBQ
