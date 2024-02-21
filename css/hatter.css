@@ -7,3 +7,10 @@ body {
     float: right;
     width: 100px;
 }
+
+div {
+    background-color: #5c6b7b;
+    padding: 60%;
+    margin: auto auto;
+}
+
