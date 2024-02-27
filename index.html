@@ -8,22 +8,22 @@
     <title>Internet legendái</title>
 </head>
 <body>
-    <img id="hu-en" class="zaszlok" src="images/angol-magyar-zaszlo.jpg" alt="Angol nyelv" title="nyelv váltás">
+    <img id="hu-en" class="zaszlok" src="images/angol-magyar-zaszlo.jpg" alt="nyelv váltás" title="nyelv váltás">
      <h1 id="h1">Miről szól ez az oldal?</h1>
      <p id="p1">Ez az oldal 8 db tudósról szól akik részt vettek az internet fejlődésében!</p>
      <p id="p2">Ez a nyolc tudós:</p>
          <ul>
-            <li>Paul Baran</li>
-            <li>Vannevar Bush</li>
-            <li>Vinton Cerf</li>
-            <li>Douglas Engelbart</li>
-            <li>Robert E. Kahn</li>
-            <li>J.C.R. Licklider</li>
-            <li>Robert Metcalfe</li>
-            <li>Lawrence Roberts</li>
+            <li><a href="pages/tudosok.html" onclick="alaptudos('Paul')" target="_blank">Paul Baran</a></li>
+            <li><a href="pages/tudosok.html" onclick="alaptudos('Vannevar')" target="_blank">Vannevar Bush</a></li>
+            <li><a href="pages/tudosok.html" onclick="alaptudos('Vinton')" target="_blank">Vinton Cerf</a></li>
+            <li><a href="pages/tudosok.html" onclick="alaptudos('Douglas')" target="_blank">Douglas Engelbart</a></li>
+            <li><a href="pages/tudosok.html" onclick="alaptudos('Robert E.')" target="_blank">Robert E. Kahn</a></li>
+            <li><a href="pages/tudosok.html" onclick="alaptudos('J.C.R.')" target="_blank">J.C.R. Licklider</a></li>
+            <li><a href="pages/tudosok.html" onclick="alaptudos('Robert M.')" target="_blank">Robert Metcalfe</a></li>
+            <li><a href="pages/tudosok.html" onclick="alaptudos('Lawrence')" target="_blank">Lawrence Roberts</a></li>
          </ul>
-     <p id="p3">Az ő munkásságukról írunk külön-külön is.</p>
-     <p><br><a id="a1" href="pages/tudosok.html">itt</a></p>
+     <p id="p3" class="p3">Az ő munkásságukról írunk külön-külön is.</p><br>
+
      <script>
          let nyelv = "hu";
 function nyelvvalt() {
@@ -32,16 +32,18 @@ function nyelvvalt() {
         document.getElementById("p1").textContent = "This page is about 8 scientists who participated in the development of the Internet!";        
         document.getElementById("p2").textContent = "These eight scientists:";    
         document.getElementById("p3").textContent = "We write about their work separately.";
-        document.getElementById("a1").innerHTML = "here"
         nyelv = "en";
     } else if (nyelv === "en") {
         document.getElementById("h1").textContent = "Miről szól ez az oldal?";
         document.getElementById("p1").textContent = "Ez az oldal 8 db tudósról szól akik részt vettek az internet fejlődésében!";        
         document.getElementById("p2").textContent = "Ez a nyolc tudós:";    
-        document.getElementById("p3").textContent = "Az ő munkásságukról írunk külön-külön is.";
-    document.getElementById("a1").innerHTML = "itt"        
+        document.getElementById("p3").textContent = "Az ő munkásságukról írunk külön-külön is.";      
         nyelv = "hu";}}
-document.getElementById("hu-en").addEventListener("click", nyelvvalt);
+    document.getElementById("hu-en").addEventListener("click", nyelvvalt);
+function alaptudos(tudos) {
+    localStorage.setItem('valasztott_tudos', tudos);
+    localStorage.setItem('nyelv', nyelv)
+    }
     </script>
 </body>
 </html>
