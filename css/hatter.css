@@ -13,7 +13,14 @@ div {
     padding: 60%;
     margin: auto auto;
 }
-#p3 {
+.p3 {
     float: left;
     display: block;
+}
+a {
+    color: black;
+}
+p, li {
+    font-size: large;
+    margin: 7px;
 }
