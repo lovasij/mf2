@@ -10,7 +10,7 @@ body {
 
 .hatter {
     background-color: white;
-    height: 1000px;
+    height: 1200px;
     width: 86%;
     margin: 0 auto;
     border: solid #5c6b7b 40px;
@@ -44,4 +44,15 @@ button {
 .gomb-div {
     margin: 0 30%;
     background-color: white;
+}
+
+.internet-kozep {
+	display: block;
+    	margin: 0 auto;
+}
+td {
+    background-color: lightblue ;
+}
+table {
+    margin: 0 auto;
 }
