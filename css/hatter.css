@@ -26,3 +26,7 @@ p, li {
     font-size: large;
     margin: 7px;
 }
+button {
+    margin: 3px 10px;
+    
+}
