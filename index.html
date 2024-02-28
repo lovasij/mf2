@@ -10,7 +10,7 @@
 <body>
     <img id="hu-en" class="zaszlok" src="images/zaszlok/angol-magyar-zaszlo.jpg" alt="nyelv váltás" title="nyelv váltás">
     <div class="hatter">
-    <img src="images/1_0.jpg" alt="1_0" class="kep-kozep">
+    <img src="images/0_1.jpeg" id="k1" alt="1_0" class="kep-kozep">
     <table>
         <tr>
             <td><a class="gomb" href="pages/tudosok.html" target="_blank" onclick="alaptudos('Paul')"><b>Paul Baran</b></a></td>
@@ -50,6 +50,7 @@
          let nyelv = "hu";
 function nyelvvalt() {
     if (nyelv === "hu") {
+        document.getElementById("k1").src = "images/0_1_en.jpeg";
         document.getElementById("h1").textContent = "Legends of the Internet";
         document.getElementById("p1").textContent = "Nowadays, when we don't understand something, we seek relaxation, look for recipes, or want to talk to our friends, family members. We just go to the internet. But have we ever  thinked about,who can we thank for all this?";        
         document.getElementById("p2").textContent = "The internet has become an everyday tool, but back in the 1800s and 1900s, when it was still being made, people could only dream of such a tool.";    
@@ -58,7 +59,8 @@ function nyelvvalt() {
         document.getElementById("p5").textContent = "These eight scientists are:";
         nyelv = "en";
     } else if (nyelv === "en") {
-        document.getElementById("h1").textContent = "Miről szól ez az oldal?";
+        document.getElementById("k1").src = "images/0_1.jpeg";
+        document.getElementById("h1").textContent = "Internet legendái";
         document.getElementById("p1").textContent = "Manapság, ha nem értünk, kikapcsolódni szeretnék, recepteket keresünk, vagy beszélni szeretnénk barátainkall, család tagjainkall, abban nagy szerepet játszik az internet. De valaha belegondultunk,hogy kiknek köszönthetjük mind ezt.";        
         document.getElementById("p2").textContent = "Az internet mára egy mindenapi eszköz lett, de a az 1800-as 1900-es években mikor még csak készítették akkor csak álmodozhattak egy ilyen eszközről.";    
         document.getElementById("p3").textContent = "Az internet kialakítása és fejlődése során számos szereplő játszott fontos szerepet, beleértve a kormányzati ügynökségeket, kutatókat, egyetemeket, vállalatokat és tudósokat is.";   
