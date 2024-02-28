@@ -52,7 +52,9 @@ button {
 }
 td {
     background-color: lightblue ;
+    height: 40px;
 }
 table {
     margin: 0 auto;
+    width: 1350px;
 }
