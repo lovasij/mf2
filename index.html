@@ -11,15 +11,15 @@
     <img id="hu-en" class="zaszlok" src="images/zaszlok/angol-magyar-zaszlo.jpg" alt="nyelv váltás" title="nyelv váltás">
     <div class="hatter">
     <img src="images/1_0.jpg" alt="1_0" class="kep-kozep">
-    <a class="gomb" onclick="tudosvalt('Paul')">Paul Baran</a>
-    <a class="gomb" onclick="tudosvalt('Vannevar')">Vannevar Bush</a>
-    <a class="gomb" onclick="tudosvalt('Vinton')">Vinton Cerf</a>
-    <a class="gomb" onclick="tudosvalt('Douglas')">Douglas Engelbart</a>
+    <a class="gomb" href="pages/tudosok.html" target="_blank" onclick="tudosvalt('Paul')">Paul Baran</a>
+    <a class="gomb" href="pages/tudosok.html" target="_blank" onclick="tudosvalt('Vannevar')">Vannevar Bush</a>
+    <a class="gomb" href="pages/tudosok.html" target="_blank" onclick="tudosvalt('Vinton')">Vinton Cerf</a>
+    <a class="gomb" href="pages/tudosok.html" target="_blank" onclick="tudosvalt('Douglas')">Douglas Engelbart</a>
     <br>
-    <a class="gomb" onclick="tudosvalt('Robert E.')">Robert E. Kahn</a>
-    <a class="gomb" onclick="tudosvalt('J.C.R.')">J.C.R. Licklider</a>
-    <a class="gomb" onclick="tudosvalt('Robert M.')">Robert Metcalfe</a>
-    <a class="gomb" onclick="tudosvalt('Lawrence')">Lawrence Roberts</a>
+    <a class="gomb" href="pages/tudosok.html" target="_blank" onclick="tudosvalt('Robert E.')">Robert E. Kahn</a>
+    <a class="gomb" href="pages/tudosok.html" target="_blank" onclick="tudosvalt('J.C.R.')">J.C.R. Licklider</a>
+    <a class="gomb" href="pages/tudosok.html" target="_blank" onclick="tudosvalt('Robert M.')">Robert Metcalfe</a>
+    <a class="gomb" href="pages/tudosok.html" target="_blank" onclick="tudosvalt('Lawrence')">Lawrence Roberts</a>
     <h1 id="h1">Internet legendái</h1>
      <p id="p1">Manapság, ha nem értünk, kikapcsolódni szeretnék, recepteket keresünk, vagy beszélni szeretnénk barátainkall, család tagjainkall, abban nagy szerepet játszik az internet. De valaha belegondultunk,
         hogy kiknek köszönthetjük mind ezt.</p>
@@ -28,14 +28,14 @@
      <p id="p4">Ez az oldal a 8 egyik legfontosabb  tudósról szól akik részt vettek az internet fejlődésében!</p>
      <p id="p5">Ez a nyolc tudós:</p>
          <ul>
-            <li><a href="pages/tudosok.html" onclick="alaptudos('Paul')" target="_blank">Paul Baran</a></li>
-            <li><a href="pages/tudosok.html" onclick="alaptudos('Vannevar')" target="_blank">Vannevar Bush</a></li>
-            <li><a href="pages/tudosok.html" onclick="alaptudos('Vinton')" target="_blank">Vinton Cerf</a></li>
-            <li><a href="pages/tudosok.html" onclick="alaptudos('Douglas')" target="_blank">Douglas Engelbart</a></li>
-            <li><a href="pages/tudosok.html" onclick="alaptudos('Robert E.')" target="_blank">Robert E. Kahn</a></li>
-            <li><a href="pages/tudosok.html" onclick="alaptudos('J.C.R.')" target="_blank">J.C.R. Licklider</a></li>
-            <li><a href="pages/tudosok.html" onclick="alaptudos('Robert M.')" target="_blank">Robert Metcalfe</a></li>
-            <li><a href="pages/tudosok.html" onclick="alaptudos('Lawrence')" target="_blank">Lawrence Roberts</a></li>
+            <li>Paul Baran</li>
+            <li>Vannevar Bush</li>
+            <li>Vinton Cerf</li>
+            <li>Douglas Engelbart</li>
+            <li>Robert E. Kahn</li>
+            <li>J.C.R. Licklider</li>
+            <li>Robert Metcalfe</li>
+            <li>Lawrence Roberts</li>
          </ul>
      <p id="p3" class="p3">Az ő munkásságukról írunk külön-külön is.</p></div> 
 
@@ -47,12 +47,16 @@ function nyelvvalt() {
         document.getElementById("p1").textContent = "This page is about 8 scientists who participated in the development of the Internet!";        
         document.getElementById("p2").textContent = "These eight scientists:";    
         document.getElementById("p3").textContent = "We write about their work separately.";
+        document.getElementById("p4").textContent = "";
+        document.getElementById("p5").textContent = "";
         nyelv = "en";
     } else if (nyelv === "en") {
         document.getElementById("h1").textContent = "Miről szól ez az oldal?";
-        document.getElementById("p1").textContent = "Ez az oldal 8 db tudósról szól akik részt vettek az internet fejlődésében!";        
-        document.getElementById("p2").textContent = "Ez a nyolc tudós:";    
-        document.getElementById("p3").textContent = "Az ő munkásságukról írunk külön-külön is.";      
+        document.getElementById("p1").textContent = "Manapság, ha nem értünk, kikapcsolódni szeretnék, recepteket keresünk, vagy beszélni szeretnénk barátainkall, család tagjainkall, abban nagy szerepet játszik az internet. De valaha belegondultunk,hogy kiknek köszönthetjük mind ezt.";        
+        document.getElementById("p2").textContent = "Az internet mára egy mindenapi eszköz lett, de a az 1800-as 1900-es években mikor még csak készítették akkor csak álmodozhattak egy ilyen eszközről.";    
+        document.getElementById("p3").textContent = "Az internet kialakítása és fejlődése során számos szereplő játszott fontos szerepet, beleértve a kormányzati ügynökségeket, kutatókat, egyetemeket, vállalatokat és tudósokat is.";   
+        document.getElementById("p4").textContent = "Ez az oldal a 8 egyik legfontosabb  tudósról szól akik részt vettek az internet fejlődésében!";
+        document.getElementById("p5").textContent = "Ez a nyolc tudós:";
         nyelv = "hu";}}
     document.getElementById("hu-en").addEventListener("click", nyelvvalt);
 function alaptudos(tudos) {
