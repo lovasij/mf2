@@ -39,4 +39,9 @@ button {
 .gomb {
     text-decoration: none;
     background-color: lightblue;
+    font-size: large;
+}
+.gomb-div {
+    margin: 0 30%;
+    background-color: white;
 }
