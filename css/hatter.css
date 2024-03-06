@@ -15,10 +15,6 @@ body {
     margin: 0 auto;
     border: solid #5c6b7b 40px;
 }
-.p3 {
-    float: left;
-    display: block;
-}
 a {
     color: black;
 }
@@ -41,7 +37,6 @@ button {
 }
 .gomb {
     text-decoration: none;
-    background-color: lightblue;
     font-size: large;
 }
 .gomb-div {
