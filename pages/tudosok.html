@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/hatter.css">
-    <title>Tudosok</title>
+    <title id="title">Tudosok</title>
 </head>
 <body>
     <img id="hu-en" class="zaszlok" src="../images/zaszlok/angol-magyar-zaszlo.jpg" alt="nyelv váltás" title="nyelv váltás">
@@ -59,9 +59,10 @@
     function szovegvalt() {
             if (nyelv === "hu") {
                 document.getElementById("k1").src = "../images/0_1.jpeg"
-                document.getElementById("")
+                document.getElementById("title").textContent = "Scientists"
             } else {
                 document.getElementById("k1").src = "../images/0_1_en.jpeg"
+                document.getElementById("title").textContent = "Tudosok"
             }
             if (alaptudos === "Paul") {
             if (nyelv === "hu") {
@@ -104,7 +105,7 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Forrás: https://en.wikipedia.org/wiki/Vannevar_Bush, chat.openai.com és https://slideplayer.hu/slide/2210849/8/images/3/Vannevar+Bush+Ted+Nelson+Tim+Berners-Lee+MEMEX+XANADU+WWW.jpg";
+                document.getElementById("link").textContent = "Forrás: https://en.wikipedia.org/wiki/Vannevar_Bush és https://slideplayer.hu/slide/2210849/8/images/3/Vannevar+Bush+Ted+Nelson+Tim+Berners-Lee+MEMEX+XANADU+WWW.jpg";
             } else if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Vannevar Bush (March 11, 1890 - June 28, 1974)";
                 document.getElementById("p1").textContent = 'Was an American scientist and public administration official who had a significant impact on the 20th century. century scientific and technological development. He is best known for his essay "As We May Think", written in 1945 and published in the magazine "Atlantic Monthly".';
@@ -116,7 +117,7 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Source: https://en.wikipedia.org/wiki/Vannevar_Bush, chat.openai.com and https://slideplayer.hu/slide/2210849/8/images/3/Vannevar+Bush+Ted+Nelson+Tim+Berners-Lee+MEMEX+XANADU+WWW.jpg";
+                document.getElementById("link").textContent = "Source: https://en.wikipedia.org/wiki/Vannevar_Bush and https://slideplayer.hu/slide/2210849/8/images/3/Vannevar+Bush+Ted+Nelson+Tim+Berners-Lee+MEMEX+XANADU+WWW.jpg";
             }document.getElementById("tudoskep").src = "../images/Vannevar_Bush.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/vannevar.jpg";
         }
@@ -132,7 +133,7 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Forrás: chat.openai.com, https://hu.wikipedia.org/wiki/Vint_Cerf és https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325";
+                document.getElementById("link").textContent = "Forrás: https://hu.wikipedia.org/wiki/Vint_Cerf és https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325";
             } else if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Vinton Cerf (June 23, 1943 - to the present day)";
                 document.getElementById("p1").textContent = "He is one of the most important figures of the Internet, who had a huge impact on the development and spread of modern communication technologies. Cerf worked closely with Robert Kahn to develop the Internet Protocols (TCP/IP), which play a fundamental role in how the Internet works.";
@@ -144,7 +145,7 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Source: chat.openai.com, https://hu.wikipedia.org/wiki/Vint_Cerf and https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325";
+                document.getElementById("link").textContent = "Source: https://hu.wikipedia.org/wiki/Vint_Cerf and https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325";
             }document.getElementById("tudoskep").src = "../images/Dr_Vint_Cerf.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/vint.png";
         }
@@ -160,7 +161,7 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Forrás: https://hu.wikipedia.org/wiki/Douglas_Engelbart, chat.openai.com és https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg";
+                document.getElementById("link").textContent = "Forrás: https://hu.wikipedia.org/wiki/Douglas_Engelbart és https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg";
             } else if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Douglas Engelbart (January 30, 1925 - July 2, 2013)";
                 document.getElementById("p1").textContent = "American engineer and IT specialist known for his pioneering work in the field of computer interaction and human-machine interface. His most significant contribution to the computer world was the innovation behind the computer mouse and basic concepts such as the graphical user interface (GUI), instant messaging, and hypertext.";
@@ -172,7 +173,7 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Source: https://hu.wikipedia.org/wiki/Douglas_Engelbart, chat.openai.com and https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg";              
+                document.getElementById("link").textContent = "Source: https://hu.wikipedia.org/wiki/Douglas_Engelbart and https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg";              
             }document.getElementById("tudoskep").src = "../images/Douglas_Engelbart.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/engelbart.jpg";
         }
