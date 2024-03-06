@@ -31,7 +31,7 @@
     <p id="p1"></p>
     <p id="p2"></p>
     <p id="p3"></p>
-    <img id="tudosmunka" src="" alt="Kép a tudós munkásságáról" title="Kép a tudós munkásságáról">
+    <img id="tudosmunka" class="munkassag" src="" alt="Kép a tudós munkásságáról" title="Kép a tudós munkásságáról">
     <p id="p4"></p> 
     <p id="p5"></p>
     <p id="p6"></p>
@@ -56,6 +56,11 @@
         szovegvalt()
     }
     function szovegvalt() {
+            if (nyelv === "hu") {
+                document.getElementById("k1").src = "../images/0_1.jpeg"
+            } else {
+                document.getElementById("k1").src = "../images/0_1_en.jpeg"
+            }
             if (alaptudos === "Paul") {
             if (nyelv === "hu") {
                 document.getElementById("h1").textContent = "Paul Baran (1926. április 29. - 2011. március 26.)";
