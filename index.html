@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/hatter.css">
-    <title>Internet legendái</title>
+    <title id="title">Internet legendái</title>
 </head>
 <body>
     <img id="hu-en" class="zaszlok" src="images/zaszlok/angol-magyar-zaszlo.jpg" alt="nyelv váltás" title="nyelv váltás">
@@ -59,6 +59,7 @@ function nyelvvalt() {
         document.getElementById("p4").textContent = "This page is about eight of the most important scientists who contributed to the development of the internet! ";
         document.getElementById("p5").textContent = "These eight scientists are:";
         document.getElementById("p6").textContent = "We write about their work separately.";
+        document.getElementById("title").textContent = "Legends of the internet";
         nyelv = "en";
     } else if (nyelv === "en") {
         document.getElementById("k1").src = "images/0_1.jpeg";
@@ -69,6 +70,7 @@ function nyelvvalt() {
         document.getElementById("p4").textContent = "Ez az oldal a 8 egyik legfontosabb  tudósról szól akik részt vettek az internet fejlődésében!";
         document.getElementById("p5").textContent = "Ez a nyolc tudós:";
         document.getElementById("p6").textContent = "Az ő munkásságukról írunk külön-külön is.";
+        document.getElementById("title").textContent = "Internet legendái"
         nyelv = "hu";}}
     document.getElementById("hu-en").addEventListener("click", nyelvvalt);
 function alaptudos(tudos) {
