@@ -38,7 +38,8 @@
     <p id="p7"></p>
     <p id="p8"></p>
     <p id="p9"></p>
-    <p id="link" style="font-size: small;"></p>  
+    <a href="google.com"id="link" style="font-size: small;">link</a><br>
+    <a href="google.com"id="klink" style="font-size: small;">link</a>  
     </div>
     
     <script>
@@ -76,7 +77,12 @@
                 document.getElementById("p7").textContent = 'Az 1980-as évek elején Baran megalapította a PacketCable, Inc-t, "hogy támogassa az impulzusos fizetős televíziós csatornákat, a helyileg generált videotex-et és a csomagos hangátvitelt". A PacketCable, más néven Packet Technologies, kivált a StrataComból , hogy a telefonpiacon kereskedelmi forgalomba hozza csomagolt hangtechnológiáját. Ez a technológia vezetett az első kereskedelmi forgalomban kapható, szabvány előtti aszinkron átviteli módú termékhez.';
                 document.getElementById("p8").textContent = "Ő alapította meg a Telebitet , miután az 1980-as évek közepén megalkotta diszkrét többtónusú modemtechnológiáját . Ez volt az egyik első olyan kereskedelmi termék, amely ortogonális frekvenciaosztásos multiplexelést használt , amelyet később széles körben alkalmaztak a DSL modemekben és a Wi-Fi vezeték nélküli modemekben.";
                 document.getElementById("p9").textContent = "1985-ben Baran megalapította a Metricom-ot , az első vezeték nélküli internetes céget, amely bevezette a Ricochet, az első nyilvános vezeték nélküli mesh hálózati rendszert. 1992-ben megalapította a Com21 nevű korai kábelmodem céget is. A Com21 után Baran megalapította és elnöke volt a GoBackTV-nek, amely a televíziós szolgáltatók személyes televíziós és kábeles IPTV infrastruktúra-berendezéseire szakosodott. Később megalapította a Plaster Networks céget, amely fejlett megoldást kínál az otthoni vagy kisirodai hálózati eszközök csatlakoztatására a meglévő vezetékeken keresztül.";
-                document.getElementById("link").textContent = "Forrás: https://en.wikipedia.org/wiki/Paul_Baran és https://www.hte.hu/documents/10180/4688533/PB_message_block_structure.jpg/28e58edc-692b-a50b-c0dd-11be4bfdb805?t=1619545048435";
+                document.getElementById("link").textContent = "Forrás: https://en.wikipedia.org/wiki/Paul_Baran"
+                document.getElementById("klink").textContent = "Kép forrás: https://www.hte.hu/documents/10180/4688533/PB_message_block_structure.jpg/28e58edc-692b-a50b-c0dd-11be4bfdb805?t=1619545048435"
+                let link = document.getElementById("link");
+                link.href = "https://en.wikipedia.org/wiki/Paul_Baran";
+                let klink = document.getElementById("klink");
+                klink.href = "https://www.hte.hu/documents/10180/4688533/PB_message_block_structure.jpg/28e58edc-692b-a50b-c0dd-11be4bfdb805?t=1619545048435";
             }
             else if (nyelv === "en") {
                 document.getElementById('h1').textContent = "Paul Baran (April 29, 1926 - March 26, 2011)";
@@ -89,7 +95,12 @@
                 document.getElementById("p7").textContent = 'In the early 1980s, Baran founded PacketCable, Inc "to support pulsed pay television, locally generated videotex and packet voice". PacketCable, also known as Packet Technologies, spun off from StrataCom to commercialize its packaged voice technology in the telephone market. This technology led to the first commercially available pre-standard asynchronous transfer mode product.';
                 document.getElementById("p8").textContent = "He founded Telebit after creating its discrete multitone modem technology in the mid-1980s. It was one of the first commercial products to use orthogonal frequency division multiplexing, which was later widely used in DSL modems and Wi-Fi wireless modems.";
                 document.getElementById("p9").textContent = "In 1985, Baran founded Metricom, the first wireless Internet company, which introduced Ricochet, the first public wireless mesh network system. In 1992, he also founded an early cable modem company called Com21. After Com21, Baran founded and chaired GoBackTV, which specializes in personal television and cable IPTV infrastructure equipment for television providers. He later founded Plaster Networks, which offers an advanced solution for connecting home or small office network devices over existing wiring.";
-                document.getElementById("link").textContent = "Source: https://en.wikipedia.org/wiki/Paul_Baran and https://www.hte.hu/documents/10180/4688533/PB_message_block_structure.jpg/28e58edc-692b-a50b-c0dd-11be4bfdb805?t=1619545048435";
+                document.getElementById("link").textContent = "Source: https://en.wikipedia.org/wiki/Paul_Baran";
+                document.getElementById("klink").textContent = "Image Source: https://www.hte.hu/documents/10180/4688533/PB_message_block_structure.jpg/28e58edc-692b-a50b-c0dd-11be4bfdb805?t=1619545048435";
+                 let link = document.getElementById("link");
+                link.href = "https://en.wikipedia.org/wiki/Paul_Baran";
+                let klink = document.getElementById("klink");
+                klink.href = "https://www.hte.hu/documents/10180/4688533/PB_message_block_structure.jpg/28e58edc-692b-a50b-c0dd-11be4bfdb805?t=1619545048435";
             }document.getElementById("tudoskep").src = "../images/Paul_Baran.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/paul.jpg";
         }
@@ -105,7 +116,13 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Forrás: https://en.wikipedia.org/wiki/Vannevar_Bush és https://slideplayer.hu/slide/2210849/8/images/3/Vannevar+Bush+Ted+Nelson+Tim+Berners-Lee+MEMEX+XANADU+WWW.jpg";
+                document.getElementById("link").textContent = "Forrás: https://en.wikipedia.org/wiki/Vannevar_Bush";
+                document.getElementById("klink").textContent = "Kép forrás: https://slideplayer.hu/slide/2210849/8/images/3/Vannevar+Bush+Ted+Nelson+Tim+Berners-Lee+MEMEX+XANADU+WWW.jpg";
+                let link = document.getElementById("link");
+                link.href = "https://en.wikipedia.org/wiki/Vannevar_Bush";
+                let klink = document.getElementById("klink");
+                klink.href = "https://slideplayer.hu/slide/2210849/8/images/3/Vannevar+Bush+Ted+Nelson+Tim+Berners-Lee+MEMEX+XANADU+WWW.jpg";
+                
             } else if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Vannevar Bush (March 11, 1890 - June 28, 1974)";
                 document.getElementById("p1").textContent = 'Was an American scientist and public administration official who had a significant impact on the 20th century. century scientific and technological development. He is best known for his essay "As We May Think", written in 1945 and published in the magazine "Atlantic Monthly".';
@@ -117,7 +134,12 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Source: https://en.wikipedia.org/wiki/Vannevar_Bush and https://slideplayer.hu/slide/2210849/8/images/3/Vannevar+Bush+Ted+Nelson+Tim+Berners-Lee+MEMEX+XANADU+WWW.jpg";
+                document.getElementById("link").textContent = "Source: https://en.wikipedia.org/wiki/Vannevar_Bush";
+                document.getElementById("klink").textContent = "Image Source: https://slideplayer.hu/slide/2210849/8/images/3/Vannevar+Bush+Ted+Nelson+Tim+Berners-Lee+MEMEX+XANADU+WWW.jpg";
+                let link = document.getElementById("link");
+                link.href = "https://en.wikipedia.org/wiki/Vannevar_Bush";
+                let klink = document.getElementById("klink");
+                klink.href = "https://slideplayer.hu/slide/2210849/8/images/3/Vannevar+Bush+Ted+Nelson+Tim+Berners-Lee+MEMEX+XANADU+WWW.jpg";
             }document.getElementById("tudoskep").src = "../images/Vannevar_Bush.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/vannevar.jpg";
         }
@@ -134,6 +156,10 @@
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
                 document.getElementById("link").textContent = "Forrás: https://hu.wikipedia.org/wiki/Vint_Cerf és https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325";
+                let link = document.getElementById("link");
+                link.href = "https://hu.wikipedia.org/wiki/Vint_Cerf";
+                let klink = document.getElementById("klink");
+                klink.href = "https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325";
             } else if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Vinton Cerf (June 23, 1943 - to the present day)";
                 document.getElementById("p1").textContent = "He is one of the most important figures of the Internet, who had a huge impact on the development and spread of modern communication technologies. Cerf worked closely with Robert Kahn to develop the Internet Protocols (TCP/IP), which play a fundamental role in how the Internet works.";
@@ -145,9 +171,14 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Source: https://hu.wikipedia.org/wiki/Vint_Cerf and https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325";
+                document.getElementById("link").textContent = "Source: https://hu.wikipedia.org/wiki/Vint_Cerf";
+                document.getElementById("klink").textContent = "Image Source: https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325";
             }document.getElementById("tudoskep").src = "../images/Dr_Vint_Cerf.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/vint.png";
+            let link = document.getElementById("link");
+                link.href = "https://hu.wikipedia.org/wiki/Vint_Cerf";
+            let klink = document.getElementById("klink");
+            klink.href = "https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325";
         }
         if (alaptudos === "Douglas") {
             if (nyelv === "hu") {
@@ -161,7 +192,13 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Forrás: https://hu.wikipedia.org/wiki/Douglas_Engelbart és https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg";
+                document.getElementById("link").textContent = "Forrás: https://hu.wikipedia.org/wiki/Douglas_Engelbart";
+                document.getElementById("klink").textContent = "Kép Forrás: https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg";
+                let link = document.getElementById("link");
+                link.href = "https://hu.wikipedia.org/wiki/Douglas_Engelbart";
+                let klink = document.getElementById("klink");
+                klink.href = "https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg";
+                
             } else if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Douglas Engelbart (January 30, 1925 - July 2, 2013)";
                 document.getElementById("p1").textContent = "American engineer and IT specialist known for his pioneering work in the field of computer interaction and human-machine interface. His most significant contribution to the computer world was the innovation behind the computer mouse and basic concepts such as the graphical user interface (GUI), instant messaging, and hypertext.";
@@ -173,9 +210,14 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Source: https://hu.wikipedia.org/wiki/Douglas_Engelbart and https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg";              
+                document.getElementById("link").textContent = "Source: https://hu.wikipedia.org/wiki/Douglas_Engelbart";
+                document.getElementById("klink").textContent = "Image Source:https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg";
             }document.getElementById("tudoskep").src = "../images/Douglas_Engelbart.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/engelbart.jpg";
+            let link = document.getElementById("link");
+                link.href = "https://hu.wikipedia.org/wiki/Douglas_Engelbart";
+                let klink = document.getElementById("klink");
+                klink.href = "https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg";
         }
         if (alaptudos === "Robert E.") {
             if (nyelv === "hu") {
@@ -190,6 +232,12 @@
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
                 document.getElementById("link").textContent = "Forrás: https://hu.wikipedia.org/wiki/Bob_Kahn";
+                document.getElementById("link").textContent = "Kép Forrás: https://hu.wikipedia.org/wiki/Bob_Kahn";
+                let link = document.getElementById("link");
+                link.href = "https://hu.wikipedia.org/wiki/Bob_Kahn";
+                let klink = document.getElementById("klink");
+                klink.href = "https://hu.wikipedia.org/wiki/Bob_Kahn";
+
             } else if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Robert E. Kahn (December 23, 1938 - to the present day)";
                 document.getElementById("p1").textContent = "American computer scientist who worked closely with Vinton Cerf in the development of Internet protocols (TCP/IP). Kahn's work greatly contributed to the development and spread of the Internet, which has become one of the most important means of communication and information processing for mankind.";
@@ -202,8 +250,14 @@
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
                 document.getElementById("link").textContent = "Source: https://hu.wikipedia.org/wiki/Bob_Kahn";
+                document.getElementById("klink").textContent = "Image Source: https://hu.wikipedia.org/wiki/Bob_Kahn";
             }document.getElementById("tudoskep").src = "../images/Bob_Kahn.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/robert_e_munkassaga.png";
+            let link = document.getElementById("link");
+                link.href = "https://hu.wikipedia.org/wiki/Bob_Kahn";
+            let klink = document.getElementById("klink");
+            klink.href = "https://hu.wikipedia.org/wiki/Bob_Kahn";
+                
         }
         if (alaptudos === "J.C.R.") {
             if (nyelv === "hu") {
@@ -218,6 +272,13 @@
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
                 document.getElementById("link").textContent = "Forrás: https://en.wikipedia.org/wiki/J._C._R._Licklider";
+                document.getElementById("klink").textContent = "Kép Forrás: https://en.wikipedia.org/wiki/J._C._R._Licklider";
+                let link = document.getElementById("link");
+                link.href = "https://en.wikipedia.org/wiki/J._C._R._Licklider";
+                let klink = document.getElementById("klink");
+                klink.href = "https://en.wikipedia.org/wiki/J._C._R._Licklider";
+
+
             } else if (nyelv === "en") {
                 document.getElementById("h1").textContent = "J.C.R. Licklider (March 11, 1915 - June 26, 1990)";
                 document.getElementById("p1").textContent = 'He was an American psychologist and computer scientist who played a key role in the early development of information technology and computing. Licklider has made significant contributions to the research and development of interactive computer systems and human-machine interfaces. Among his most significant works is his essay "Intergalactic Computer Network", in which he predicted the foundations of the Internet.';
@@ -229,9 +290,15 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Source: https://en.wikipedia.org/wiki/J._C._R._Licklider";               
+                document.getElementById("link").textContent = "Source: https://en.wikipedia.org/wiki/J._C._R._Licklider";
+                document.getElementById("klink").textContent = "Image Source: https://en.wikipedia.org/wiki/J._C._R._Licklider";             
             }document.getElementById("tudoskep").src = "../images/J._C._R._Licklider.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/jcr_munkassaga.jpeg";
+            let link = document.getElementById("link");
+                link.href = "https://en.wikipedia.org/wiki/J._C._R._Licklider";
+            let klink = document.getElementById("klink");
+            klink.href = "https://en.wikipedia.org/wiki/J._C._R._Licklider";
+
         }
         if (alaptudos === "Robert M.") {
             if (nyelv === "hu") {
@@ -246,6 +313,11 @@
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
                 document.getElementById("link").textContent = "Forrás: https://en.wikipedia.org/wiki/Robert_Metcalfe";
+                document.getElementById("klink").textContent = "Kép Forrás: https://en.wikipedia.org/wiki/Robert_Metcalfe";
+                let link = document.getElementById("link");
+                link.href = "https://en.wikipedia.org/wiki/Robert_Metcalfe";
+                let klink = document.getElementById("klink");
+                klink.href = "https://en.wikipedia.org/wiki/Robert_Metcalfe";
             } else if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Robert Metcalfe (April 7, 1946 to the present day.)";
                 document.getElementById("p1").textContent = "American computer scientist and entrepreneur who is the creator of Ethernet network technology. Metcalfe's work greatly contributed to the fast and efficient transfer of data over local area networks, which has become essential in modern IT systems.";
@@ -258,8 +330,15 @@
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
                 document.getElementById("link").textContent = "Source: https://en.wikipedia.org/wiki/Robert_Metcalfe";
+                document.getElementById("klink").textContent = "Image Source: https://en.wikipedia.org/wiki/Robert_Metcalfe";
             }document.getElementById("tudoskep").src = "../images/with_Bob_Metcalfe_(cropped).jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/robert_munkassaga.png";
+            let link = document.getElementById("link");
+                link.href = "https://en.wikipedia.org/wiki/Robert_Metcalfe";
+                let klink = document.getElementById("klink");
+                klink.href = "https://en.wikipedia.org/wiki/Robert_Metcalfe";
+            
+            
         }
         if (alaptudos === "Lawrence") {
             if (nyelv === "hu") {
@@ -273,7 +352,12 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Forrás: https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist) és https://www.google.com/url?sa=i&url=https%3A%2F%2Fjelenbolajovobe.blog.hu%2F2018%2F09%2F06%2Fmuholdas_kommunikacios_rendszerek_biztonsagi_resei";
+                document.getElementById("link").textContent = "Forrás: https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)";
+                document.getElementById("link").textContent = "Forrás: https://jelenbolajovobe.blog.hu/2018/09/06/muholdas_kommunikacios_rendszerek_biztonsagi_resei";
+                let link = document.getElementById("link");
+                link.href = "https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)";
+                let klink = document.getElementById("klink");
+                klink.href = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fjelenbolajovobe.blog.hu%2F2018%2F09%2F06%2Fmuholdas_kommunikacios_rendszerek_biztonsagi_resei";
             } else if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Lawrence Roberts (December 21, 1937 - December 26th, 2018)";
                 document.getElementById("p1").textContent = "He was an American computer scientist and engineer who played a prominent role in the creation of the ARPANET, the precursor to the Internet. Roberts was involved in many important technological innovations that were decisive in the development of Internet communication and data transfer.";
@@ -285,9 +369,14 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Source: https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist) and https://www.google.com/url?sa=i&url=https%3A%2F%2Fjelenbolajovobe.blog.hu%2F2018%2F09%2F06%2Fmuholdas_kommunikacios_rendszerek_biztonsagi_resei";               
+                document.getElementById("link").textContent = "Source: https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)";
+                document.getElementById("klink").textContent = "Image Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fjelenbolajovobe.blog.hu%2F2018%2F09%2F06%2Fmuholdas_kommunikacios_rendszerek_biztonsagi_resei";               
             }document.getElementById("tudoskep").src = "../images/larry_roberts.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/lawrence_munkassaga.jpg"; 
+            let link = document.getElementById("link");
+                link.href = "https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)";
+            let klink = document.getElementById("klink");
+            klink.href = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fjelenbolajovobe.blog.hu%2F2018%2F09%2F06%2Fmuholdas_kommunikacios_rendszerek_biztonsagi_resei";
         }
     }
     szovegvalt()
