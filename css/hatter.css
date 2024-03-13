@@ -61,3 +61,17 @@ table {
     display: block;
     margin: 0 auto;
 }
+.vissza{
+    margin: 0 93%;
+    font-size: large;
+
+}
+.vissza:hover{
+    color: aqua;
+}
+.link:hover {
+    color: aqua;
+}
+.link {
+    font-size: small;
+}

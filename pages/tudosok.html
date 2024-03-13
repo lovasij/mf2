@@ -38,8 +38,9 @@
     <p id="p7"></p>
     <p id="p8"></p>
     <p id="p9"></p>
-    <a href="google.com"id="link" style="font-size: small;">link</a><br>
-    <a href="google.com"id="klink" style="font-size: small;">link</a>  
+    <a href="google.com"id="link" class="link" target="_blank">link</a><br>
+    <a href="google.com"id="klink" class="link" target="_blank">link</a>
+    <a href="../index.html" class="vissza">FŐOLDAL</a>
     </div>
     
     <script>
@@ -157,7 +158,7 @@
                 document.getElementById("p7").textContent = "";
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
-                document.getElementById("link").textContent = "Forrás: https://hu.wikipedia.org/wiki/Vint_Cerf és https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325";
+                document.getElementById("link").textContent = "Forrás: https://hu.wikipedia.org/wiki/Vint_Cerf";
                 let link = document.getElementById("link");
                 link.href = "https://hu.wikipedia.org/wiki/Vint_Cerf";
                 let klink = document.getElementById("klink");
@@ -234,7 +235,7 @@
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
                 document.getElementById("link").textContent = "Forrás: https://hu.wikipedia.org/wiki/Bob_Kahn";
-                document.getElementById("link").textContent = "Kép Forrás: https://hu.wikipedia.org/wiki/Bob_Kahn";
+                document.getElementById("klink").textContent = "Kép Forrás: https://hu.wikipedia.org/wiki/Bob_Kahn";
                 let link = document.getElementById("link");
                 link.href = "https://hu.wikipedia.org/wiki/Bob_Kahn";
                 let klink = document.getElementById("klink");
@@ -355,11 +356,11 @@
                 document.getElementById("p8").textContent = "";
                 document.getElementById("p9").textContent = "";
                 document.getElementById("link").textContent = "Forrás: https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)";
-                document.getElementById("link").textContent = "Forrás: https://jelenbolajovobe.blog.hu/2018/09/06/muholdas_kommunikacios_rendszerek_biztonsagi_resei";
+                document.getElementById("klink").textContent = "Kép Forrás: https://jelenbolajovobe.blog.hu/2018/09/06/muholdas_kommunikacios_rendszerek_biztonsagi_resei";
                 let link = document.getElementById("link");
                 link.href = "https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)";
                 let klink = document.getElementById("klink");
-                klink.href = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fjelenbolajovobe.blog.hu%2F2018%2F09%2F06%2Fmuholdas_kommunikacios_rendszerek_biztonsagi_resei";
+                klink.href = "https://jelenbolajovobe.blog.hu/2018/09/06/muholdas_kommunikacios_rendszerek_biztonsagi_resei";
             } else if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Lawrence Roberts (December 21, 1937 - December 26th, 2018)";
                 document.getElementById("p1").textContent = "He was an American computer scientist and engineer who played a prominent role in the creation of the ARPANET, the precursor to the Internet. Roberts was involved in many important technological innovations that were decisive in the development of Internet communication and data transfer.";
