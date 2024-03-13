@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html id="lang" lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,9 +48,11 @@
     function nyelvvalt() {
         if (nyelv === "hu") {
             nyelv = "en"
+            document.getElementById("lang").lang = "en"
         }
         else if (nyelv ==="en") {
             nyelv = "hu"
+            document.getElementById("lang").lang = "hu"
         }
         szovegvalt()}
     function tudosvalt(az) {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html id="lang" lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -60,6 +60,7 @@ function nyelvvalt() {
         document.getElementById("p5").textContent = "These eight scientists are:";
         document.getElementById("p6").textContent = "We write about their work separately.";
         document.getElementById("title").textContent = "Legends of the internet";
+        document.getElementById("lang").lang = "en"
         nyelv = "en";
     } else if (nyelv === "en") {
         document.getElementById("k1").src = "images/0_1.jpeg";
@@ -71,6 +72,7 @@ function nyelvvalt() {
         document.getElementById("p5").textContent = "Ez a nyolc tudós:";
         document.getElementById("p6").textContent = "Az ő munkásságukról írunk külön-külön is.";
         document.getElementById("title").textContent = "Internet legendái"
+        document.getElementById("lang").lang = "hu"
         nyelv = "hu";}}
     document.getElementById("hu-en").addEventListener("click", nyelvvalt);
 function alaptudos(tudos) {
