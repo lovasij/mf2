@@ -82,11 +82,9 @@ table {
     float:left;
     height: 100px;
     border: solid 2px black;
+    margin-right: 15px;
 }
 
 .margo {
     padding: 15px;
-}
-.margo2 {
-    padding-left: 99px ;
 }
