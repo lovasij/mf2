@@ -69,14 +69,12 @@
     function szovegvalt() {
             if (nyelv === "hu") {
                 document.getElementById("k1").src = "../images/0_1.jpeg";
-                document.getElementById("title").textContent = "Tudosok";
                 document.getElementById("alap").textContent = "Főoldal";
                 document.getElementById("lang").lang = "hu";
                 document.getElementById("hu-en").title = "nyelv váltás";
                 document.getElementById("hu-en").alt = "nyelv váltás";
             } else {
                 document.getElementById("k1").src = "../images/0_1_en.jpeg";
-                document.getElementById("title").textContent = "Scientists";
                 document.getElementById("alap").textContent = "Home";
                 document.getElementById("lang").lang = "en";
                 document.getElementById("hu-en").title = "language change";
@@ -119,7 +117,9 @@
                 let klink = document.getElementById("klink");
                 klink.href = "https://www.hte.hu/documents/10180/4688533/PB_message_block_structure.jpg/28e58edc-692b-a50b-c0dd-11be4bfdb805?t=1619545048435";
             }document.getElementById("tudoskep").src = "../images/Paul_Baran.jpg";
+            document.getElementById("tudoskep").title = "Paul Baran";
             document.getElementById("tudosmunka").src = "../images/munkassag/paul.jpg";
+            document.getElementById("title").textContent = "Paul Baran";
         }
         if (alaptudos === "Vannevar") {
             if (nyelv === "hu") {
@@ -159,6 +159,8 @@
                 klink.href = "https://slideplayer.hu/slide/2210849/8/images/3/Vannevar+Bush+Ted+Nelson+Tim+Berners-Lee+MEMEX+XANADU+WWW.jpg";
             }document.getElementById("tudoskep").src = "../images/Vannevar_Bush.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/vannevar.jpg";
+            document.getElementById("title").textContent = "Vannevar Bush";
+            document.getElementById("tudoskep").title = "Vannevar Bush";
         }
         if (alaptudos === "Vinton") {
             if (nyelv === "hu") {
@@ -192,6 +194,8 @@
                 document.getElementById("klink").textContent = "Image Source: https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325";
             }document.getElementById("tudoskep").src = "../images/Dr_Vint_Cerf.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/vint.png";
+            document.getElementById("title").textContent = "Vinton Cerf";
+            document.getElementById("tudoskep").title = "Vinton Cerf";
             let link = document.getElementById("link");
                 link.href = "https://hu.wikipedia.org/wiki/Vint_Cerf";
             let klink = document.getElementById("klink");
@@ -231,6 +235,8 @@
                 document.getElementById("klink").textContent = "Image Source:https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg";
             }document.getElementById("tudoskep").src = "../images/Douglas_Engelbart.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/engelbart.jpg";
+            document.getElementById("title").textContent = "Douglas Engelbart";
+            document.getElementById("tudoskep").title = "Douglas Engelbart";
             let link = document.getElementById("link");
                 link.href = "https://hu.wikipedia.org/wiki/Douglas_Engelbart";
                 let klink = document.getElementById("klink");
@@ -270,6 +276,8 @@
                 document.getElementById("klink").textContent = "Image Source: https://hu.wikipedia.org/wiki/Bob_Kahn";
             }document.getElementById("tudoskep").src = "../images/Bob_Kahn.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/robert_e_munkassaga.png";
+            document.getElementById("title").textContent = "Robert E. Kahn";
+            document.getElementById("tudoskep").title = "Robert E. Kahn";
             let link = document.getElementById("link");
                 link.href = "https://hu.wikipedia.org/wiki/Bob_Kahn";
             let klink = document.getElementById("klink");
@@ -311,6 +319,8 @@
                 document.getElementById("klink").textContent = "Image Source: https://en.wikipedia.org/wiki/J._C._R._Licklider";             
             }document.getElementById("tudoskep").src = "../images/J._C._R._Licklider.jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/jcr_munkassaga.jpeg";
+            document.getElementById("title").textContent = "J. C. R. Licklider";
+            document.getElementById("tudoskep").title = "J. C. R. Licklider";
             let link = document.getElementById("link");
                 link.href = "https://en.wikipedia.org/wiki/J._C._R._Licklider";
             let klink = document.getElementById("klink");
@@ -350,6 +360,8 @@
                 document.getElementById("klink").textContent = "Image Source: https://en.wikipedia.org/wiki/Robert_Metcalfe";
             }document.getElementById("tudoskep").src = "../images/with_Bob_Metcalfe_(cropped).jpg";
             document.getElementById("tudosmunka").src = "../images/munkassag/robert_munkassaga.png";
+            document.getElementById("title").textContent = "Robert Metcalfe";
+            document.getElementById("tudoskep").title = "Robert Metcalfe";
             let link = document.getElementById("link");
                 link.href = "https://en.wikipedia.org/wiki/Robert_Metcalfe";
                 let klink = document.getElementById("klink");
@@ -389,7 +401,9 @@
                 document.getElementById("link").textContent = "Source: https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)";
                 document.getElementById("klink").textContent = "Image Source: https://jelenbolajovobe.blog.hu/2018/09/06/muholdas_kommunikacios_rendszerek_biztonsagi_resei";               
             }document.getElementById("tudoskep").src = "../images/larry_roberts.jpg";
-            document.getElementById("tudosmunka").src = "../images/munkassag/lawrence_munkassaga.jpg"; 
+            document.getElementById("tudosmunka").src = "../images/munkassag/lawrence_munkassaga.jpg";
+            document.getElementById("title").textContent = "Lawrence Roberts";
+            document.getElementById("tudoskep").title = "Lawrence Roberts"; 
             let link = document.getElementById("link");
                 link.href = "https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)";
             let klink = document.getElementById("klink");
