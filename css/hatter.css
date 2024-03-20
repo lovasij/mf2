@@ -79,7 +79,9 @@ table {
 }
 
 .tudos {
-    float:right;
+    float:left;
+    height: 100px;
+    border: solid 2px black;
 }
 
 .margo {
