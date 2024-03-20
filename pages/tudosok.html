@@ -37,35 +37,50 @@
     <p id="p7"></p>
     <p id="p8"></p>
     <p id="p9"></p>
-    <a href="google.com"id="link" class="link" target="_blank">link</a><br>
-    <a href="google.com"id="klink" class="link" target="_blank">link</a>
-    <a href="../index.html" class="vissza">FŐOLDAL</a>
+    <a href="google.com" id="link" class="link" target="_blank">link</a><br>
+    <a href="google.com" id="klink" class="link" target="_blank">link</a>
+    <a href="../index.html" id="alap" onclick="nyelvmentes()" class="vissza">FŐOLDAL</a>
     </div>
     
     <script>
-        let nyelv = localStorage.getItem("nyelv")
+        let nyelv = localStorage.getItem('nyelv')
         let alaptudos = localStorage.getItem("valasztott_tudos")
-    function nyelvvalt() {
+        function nyelvmentes() {
+            localStorage.clear();
+            if (nyelv === "en") {
+                localStorage.setItem('nyelv', "hu");}
+            else{
+                localStorage.setItem('nyelv', "en");
+            }
+            
+        }
+        function nyelvvalt() {
         if (nyelv === "hu") {
             nyelv = "en"
-            document.getElementById("lang").lang = "en"
         }
         else if (nyelv ==="en") {
             nyelv = "hu"
-            document.getElementById("lang").lang = "hu"
         }
         szovegvalt()}
     function tudosvalt(az) {
         alaptudos = az;
-        szovegvalt()
+        szovegvalt();
     }
     function szovegvalt() {
             if (nyelv === "hu") {
-                document.getElementById("k1").src = "../images/0_1.jpeg"
-                document.getElementById("title").textContent = "Tudosok"
+                document.getElementById("k1").src = "../images/0_1.jpeg";
+                document.getElementById("title").textContent = "Tudosok";
+                document.getElementById("alap").textContent = "Főoldal";
+                document.getElementById("lang").lang = "hu";
+                document.getElementById("hu-en").title = "nyelv váltás";
+                document.getElementById("hu-en").alt = "nyelv váltás";
             } else {
-                document.getElementById("k1").src = "../images/0_1_en.jpeg"
-                document.getElementById("title").textContent = "Scientists"
+                document.getElementById("k1").src = "../images/0_1_en.jpeg";
+                document.getElementById("title").textContent = "Scientists";
+                document.getElementById("alap").textContent = "Home";
+                document.getElementById("lang").lang = "en";
+                document.getElementById("hu-en").title = "language change";
+                document.getElementById("hu-en").alt = "language change";
             }
             if (alaptudos === "Paul") {
             if (nyelv === "hu") {

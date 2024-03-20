@@ -13,21 +13,21 @@
     <img src="images/0_1.jpeg" id="k1" alt="1_0" class="kep-kozep">
     <table>
         <tr>
-            <td><a class="gomb" href="pages/tudosok.html" target="_blank" onclick="alaptudos('Paul')"><b>Paul Baran</b></a></td>
-            <td><a class="gomb" href="pages/tudosok.html" target="_blank" onclick="alaptudos('Vannevar')"><b>Vannevar Bush</b></a></td>
-            <td><a class="gomb" href="pages/tudosok.html" target="_blank" onclick="alaptudos('Vinton')"><b>Vinton Cerf</b></a></td>
-            <td><a class="gomb" href="pages/tudosok.html" target="_blank" onclick="alaptudos('Douglas')"><b>Douglas Engelbart</b></a></td>
+            <td><a class="gomb" href="pages/tudosok.html" onclick="alaptudos('Paul')"><b>Paul Baran</b></a></td>
+            <td><a class="gomb" href="pages/tudosok.html" onclick="alaptudos('Vannevar')"><b>Vannevar Bush</b></a></td>
+            <td><a class="gomb" href="pages/tudosok.html" onclick="alaptudos('Vinton')"><b>Vinton Cerf</b></a></td>
+            <td><a class="gomb" href="pages/tudosok.html" onclick="alaptudos('Douglas')"><b>Douglas Engelbart</b></a></td>
         </tr>
         <tr>
-            <td><a class="gomb" href="pages/tudosok.html" target="_blank" onclick="alaptudos('Robert E.')"><b>Robert E. Kahn</b></a></td>
-            <td><a class="gomb" href="pages/tudosok.html" target="_blank" onclick="alaptudos('J.C.R.')"><b>J.C.R. Licklider</b></a></td>
-            <td><a class="gomb" href="pages/tudosok.html" target="_blank" onclick="alaptudos('Robert M.')"><b>Robert Metcalfe</b></a></td>
-            <td><a class="gomb" href="pages/tudosok.html" target="_blank" onclick="alaptudos('Lawrence')"><b>Lawrence Roberts</b></a></div></td>
+            <td><a class="gomb" href="pages/tudosok.html" onclick="alaptudos('Robert E.')"><b>Robert E. Kahn</b></a></td>
+            <td><a class="gomb" href="pages/tudosok.html" onclick="alaptudos('J.C.R.')"><b>J.C.R. Licklider</b></a></td>
+            <td><a class="gomb" href="pages/tudosok.html" onclick="alaptudos('Robert M.')"><b>Robert Metcalfe</b></a></td>
+            <td><a class="gomb" href="pages/tudosok.html" onclick="alaptudos('Lawrence')"><b>Lawrence Roberts</b></a></div></td>
         </tr>
     </table>
     
     <h1 id="h1">Internet legendái</h1>
-     <p id="p1">Manapság, ha nem értünk, kikapcsolódni szeretnék, recepteket keresünk, vagy beszélni szeretnénk barátainkall, család tagjainkall, abban nagy szerepet játszik az internet. De valaha belegondultunk,
+     <p id="p1">Manapság, ha nem értünk, kikapcsolódni szeretnék, recepteket keresünk, vagy beszélni szeretnénk barátainkal, család tagjainkal, abban nagy szerepet játszik az internet. De valaha belegondultunk,
         hogy kiknek köszönthetjük mind ezt.</p>
      <p id="p2">Az internet mára egy mindenapi eszköz lett, de a az 1800-as 1900-es években mikor még csak készítették akkor csak álmodozhattak egy ilyen eszközről.</p>
      <img src="images/munkassag/internet.jpeg" class="internet-kozep" alt="Internet 1900">
@@ -48,7 +48,8 @@
     </div> 
 
      <script>
-         let nyelv = "hu";
+        let nyelv = NaN
+
 function nyelvvalt() {
     if (nyelv === "hu") {
         document.getElementById("k1").src = "images/0_1_en.jpeg";
@@ -60,24 +61,39 @@ function nyelvvalt() {
         document.getElementById("p5").textContent = "These eight scientists are:";
         document.getElementById("p6").textContent = "We write about their work separately.";
         document.getElementById("title").textContent = "Legends of the internet";
-        document.getElementById("lang").lang = "en"
+        document.getElementById("lang").lang = "en";
+        document.getElementById("hu-en").title = "language change";
+        document.getElementById("hu-en").alt = "language change";
         nyelv = "en";
     } else if (nyelv === "en") {
         document.getElementById("k1").src = "images/0_1.jpeg";
         document.getElementById("h1").textContent = "Internet legendái";
-        document.getElementById("p1").textContent = "Manapság, ha nem értünk, kikapcsolódni szeretnék, recepteket keresünk, vagy beszélni szeretnénk barátainkall, család tagjainkall, abban nagy szerepet játszik az internet. De valaha belegondultunk,hogy kiknek köszönthetjük mind ezt.";        
+        document.getElementById("p1").textContent = "Manapság, ha nem értünk, kikapcsolódni szeretnék, recepteket keresünk, vagy beszélni szeretnénk barátainkal, család tagjainkal, abban nagy szerepet játszik az internet. De valaha belegondultunk,hogy kiknek köszönthetjük mind ezt.";        
         document.getElementById("p2").textContent = "Az internet mára egy mindenapi eszköz lett, de a az 1800-as 1900-es években mikor még csak készítették akkor csak álmodozhattak egy ilyen eszközről.";    
         document.getElementById("p3").textContent = "Az internet kialakítása és fejlődése során számos szereplő játszott fontos szerepet, beleértve a kormányzati ügynökségeket, kutatókat, egyetemeket, vállalatokat és tudósokat is.";   
         document.getElementById("p4").textContent = "Ez az oldal a 8 egyik legfontosabb  tudósról szól akik részt vettek az internet fejlődésében!";
         document.getElementById("p5").textContent = "Ez a nyolc tudós:";
         document.getElementById("p6").textContent = "Az ő munkásságukról írunk külön-külön is.";
-        document.getElementById("title").textContent = "Internet legendái"
-        document.getElementById("lang").lang = "hu"
+        document.getElementById("title").textContent = "Internet legendái";
+        document.getElementById("lang").lang = "hu";
+        document.getElementById("hu-en").title = "nyelv váltás";
+        document.getElementById("hu-en").alt = "nyelv váltás";
         nyelv = "hu";}}
-    document.getElementById("hu-en").addEventListener("click", nyelvvalt);
-function alaptudos(tudos) {
+        
+        if (localStorage.length === 1) {
+            nyelv = localStorage.getItem('nyelv');
+            nyelvvalt()
+        } else{
+            nyelv = "hu";
+            localStorage.setItem('nyelv', nyelv);
+            nyelvvalt()
+        }
+    
+        document.getElementById("hu-en").addEventListener("click", nyelvvalt);
+
+        function alaptudos(tudos) {
     localStorage.setItem('valasztott_tudos', tudos);
-    localStorage.setItem('nyelv', nyelv)
+    localStorage.setItem('nyelv', nyelv);
     }
     </script>
 </body>
