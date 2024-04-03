@@ -1,7 +1,7 @@
 let nyelv = NaN
 
 function nyelvvalt() {
-    if (nyelv === "hu") {
+    if (nyelv === "en") {
         document.getElementById("k1").src = "images/0_1_en.jpeg";
         document.getElementById("h1").textContent = "Legends of the Internet";
         document.getElementById("p1").textContent = "Nowadays, when we don't understand something, we seek relaxation, look for recipes, or want to talk to our friends, family members. We just go to the internet. But have we ever  thinked about,who can we thank for all this?";        
@@ -14,8 +14,8 @@ function nyelvvalt() {
         document.getElementById("lang").lang = "en";
         document.getElementById("hu-en").title = "language change";
         document.getElementById("hu-en").alt = "language change";
-        nyelv = "en";
-    } else if (nyelv === "en") {
+        nyelv = "hu";
+    } else if (nyelv === "hu") {
         document.getElementById("k1").src = "images/0_1.jpeg";
         document.getElementById("h1").textContent = "Internet legendái";
         document.getElementById("p1").textContent = "Manapság, ha nem értünk, kikapcsolódni szeretnék, recepteket keresünk, vagy beszélni szeretnénk barátainkal, család tagjainkal, abban nagy szerepet játszik az internet. De valaha belegondultunk,hogy kiknek köszönthetjük mind ezt.";        
@@ -28,7 +28,7 @@ function nyelvvalt() {
         document.getElementById("lang").lang = "hu";
         document.getElementById("hu-en").title = "nyelv váltás";
         document.getElementById("hu-en").alt = "nyelv váltás";
-        nyelv = "hu";}}
+        nyelv = "en";}}
         
         if (localStorage.length === 1) {
             nyelv = localStorage.getItem('nyelv');

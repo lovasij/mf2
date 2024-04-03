@@ -22,7 +22,7 @@ let nyelv = localStorage.getItem('nyelv')
         szovegvalt();
     }
     function szovegvalt() {
-            if (nyelv === "hu") {
+            if (nyelv === "en") {
                 document.getElementById("k1").src = "../images/0_1.jpeg";
                 document.getElementById("alap").textContent = "Főoldal";
                 document.getElementById("lang").lang = "hu";
@@ -36,7 +36,7 @@ let nyelv = localStorage.getItem('nyelv')
                 document.getElementById("hu-en").alt = "language change";
             }
             if (alaptudos === "Paul") {
-            if (nyelv === "hu") {
+            if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Paul Baran (1926. április 29. - 2011. március 26.)";
                 document.getElementById("p1").textContent = '1959-ben csatlakozott a RAND Corporation-hez , Baran egy „túlélhető” kommunikációs rendszer megtervezésére vállalkozott';
                 document.getElementById("p2").textContent = "A korabeli miniszámítógépes technológiát használva Baran és csapata kifejlesztett egy szimulációs csomagot, amellyel különböző fokú kapcsolódási fokú csomópontok tömbjének alapvető csatlakoztathatóságát tesztelték.";
@@ -54,7 +54,7 @@ let nyelv = localStorage.getItem('nyelv')
                 let klink = document.getElementById("klink");
                 klink.href = "https://www.hte.hu/documents/10180/4688533/PB_message_block_structure.jpg/28e58edc-692b-a50b-c0dd-11be4bfdb805?t=1619545048435";
             }
-            else if (nyelv === "en") {
+            else if (nyelv === "hu") {
                 document.getElementById('h1').textContent = "Paul Baran (April 29, 1926 - March 26, 2011)";
                 document.getElementById("p1").textContent = 'Joining the RAND Corporation in 1959, Baran set out to design a "survivable" communications system';
                 document.getElementById("p2").textContent = "Using computing technology of the day, Baran and his team developed a simulation simulation to test the appropriate connectivity of an array of nodes with varying degrees of connectivity.";
@@ -77,7 +77,7 @@ let nyelv = localStorage.getItem('nyelv')
             document.getElementById("title").textContent = "Paul Baran";
         }
         if (alaptudos === "Vannevar") {
-            if (nyelv === "hu") {
+            if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Vannevar Bush (1890. március 11. – 1974. június 28)";
                 document.getElementById("p1").textContent = 'Amerikai tudós és közigazgatási tisztviselő volt, aki jelentős hatást gyakorolt a XX. századi tudományos és technológiai fejlődésre. Leginkább az "As We May Think" című esszéje által vált ismertté, amelyet 1945-ben írt és az "Atlantic Monthly" című folyóiratban jelentetett meg.';
                 document.getElementById("p2").textContent = "Bush egyike volt azoknak az embereknek, akik kiemelkedő szerepet játszottak az amerikai haditechnológia fejlesztésében az első és a második világháborúban. A Massachusetts Institute of Technology (MIT) elektromos mérnökként kezdte pályafutását, majd később a haditechnikai kutatások irányába fordult.";
@@ -95,7 +95,7 @@ let nyelv = localStorage.getItem('nyelv')
                 let klink = document.getElementById("klink");
                 klink.href = "https://slideplayer.hu/slide/2210849/8/images/3/Vannevar+Bush+Ted+Nelson+Tim+Berners-Lee+MEMEX+XANADU+WWW.jpg";
                 
-            } else if (nyelv === "en") {
+            } else if (nyelv === "hu") {
                 document.getElementById("h1").textContent = "Vannevar Bush (March 11, 1890 - June 28, 1974)";
                 document.getElementById("p1").textContent = 'Was an American scientist and public administration official who had a significant impact on the 20th century. century scientific and technological development. He is best known for his essay "As We May Think", written in 1945 and published in the magazine "Atlantic Monthly".';
                 document.getElementById("p2").textContent = "Bush was one of the people who played a prominent role in the development of American military technology in World War I and World War II. He began his career as an electrical engineer at the Massachusetts Institute of Technology (MIT), and later turned to military research.";
@@ -118,7 +118,7 @@ let nyelv = localStorage.getItem('nyelv')
             document.getElementById("tudoskep").title = "Vannevar Bush";
         }
         if (alaptudos === "Vinton") {
-            if (nyelv === "hu") {
+            if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Vinton Cerf (1943. június 23. - napjainkig)";
                 document.getElementById("p1").textContent = "Az internet egyik legfontosabb alakja, aki hatalmas hatást gyakorolt a modern kommunikációs technológiák fejlődésére és elterjedésére. Cerf szorosan együttműködött Robert Kahn-nal az internet protokolljainak (TCP/IP) kifejlesztésében, amelyek alapvető szerepet játszanak az internet működésében.";
                 document.getElementById("p2").textContent = "Cerf szakmai pályafutása során számos fontos pozíciót töltött be az informatikai iparban és a kutatásban. A legismertebb az, hogy az ARPANET (az internet elődje) kifejlesztésénél és kialakításánál kulcsszerepet vállalt. A TCP/IP protokollt Cerf és Kahn fejlesztette ki, amely lehetővé tette az adatok hatékony átvitelét és kommunikációját az interneten keresztül. Ez az alapvető protokollrendszer az internet működésének alapját képezi mind a mai napig.";
@@ -134,7 +134,7 @@ let nyelv = localStorage.getItem('nyelv')
                 link.href = "https://hu.wikipedia.org/wiki/Vint_Cerf";
                 let klink = document.getElementById("klink");
                 klink.href = "https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325";
-            } else if (nyelv === "en") {
+            } else if (nyelv === "hu") {
                 document.getElementById("h1").textContent = "Vinton Cerf (June 23, 1943 - to the present day)";
                 document.getElementById("p1").textContent = "He is one of the most important figures of the Internet, who had a huge impact on the development and spread of modern communication technologies. Cerf worked closely with Robert Kahn to develop the Internet Protocols (TCP/IP), which play a fundamental role in how the Internet works.";
                 document.getElementById("p2").textContent = "During his professional career, Cerf held several important positions in the IT industry and research. He is best known for playing a key role in the development and creation of ARPANET (the predecessor of the Internet). The TCP/IP protocol was developed by Cerf and Kahn, which enabled the efficient transfer and communication of data over the Internet. This basic protocol system forms the basis of the functioning of the Internet to this day.";
@@ -157,7 +157,7 @@ let nyelv = localStorage.getItem('nyelv')
             klink.href = "https://www.hte.hu/documents/10180/4847359/VC_Arpanet_1977.png/135513b1-4aa3-0165-c6b6-4169e0612edb?t=1687343951325";
         }
         if (alaptudos === "Douglas") {
-            if (nyelv === "hu") {
+            if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Douglas Engelbart (1925. január 30 -  2013. július 2)";
                 document.getElementById("p1").textContent = "Amerikai mérnök és informatikai szakember, aki a számítógépes interakció és az ember-gép interfész területén végzett úttörő munkájáról ismert. Legjelentősebb hozzájárulása a számítógépes világban az az innováció, amely a számítógépes egér és az olyan alapvető koncepciók, mint a grafikus felhasználói felület (GUI), az azonnali üzenetküldés és a hipertext, mögött állt.";
                 document.getElementById("p2").textContent = 'Az 1960-as évek elején Engelbart a Stanford Research Institute (ma SRI International) munkatársa volt, ahol 1963-ban meghatározó előadást tartott a "Készségmérnöki eljárás" (Augmenting Human Intellect) című konferencián. Ebben az előadásban bemutatta a koncepciókat és az eszközöket, amelyek alapvetően megváltoztatták a számítógépek és az emberi felhasználók interakcióját.';
@@ -175,7 +175,7 @@ let nyelv = localStorage.getItem('nyelv')
                 let klink = document.getElementById("klink");
                 klink.href = "https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg";
                 
-            } else if (nyelv === "en") {
+            } else if (nyelv === "hu") {
                 document.getElementById("h1").textContent = "Douglas Engelbart (January 30, 1925 - July 2, 2013)";
                 document.getElementById("p1").textContent = "American engineer and IT specialist known for his pioneering work in the field of computer interaction and human-machine interface. His most significant contribution to the computer world was the innovation behind the computer mouse and basic concepts such as the graphical user interface (GUI), instant messaging, and hypertext.";
                 document.getElementById("p2").textContent = 'In the early 1960s, Engelbart was an employee of the Stanford Research Institute (now SRI International), where in 1963 he gave a key lecture at the conference entitled "Augmenting Human Intellect". In this presentation, he introduced the concepts and tools that have fundamentally changed the way computers and human users interact.';
@@ -198,7 +198,7 @@ let nyelv = localStorage.getItem('nyelv')
                 klink.href = "https://media.icdn.hu/content/entity/2018/04/25545/5d23bc29dc8dfdouglas-engelbart.jpg";
         }
         if (alaptudos === "Robert E.") {
-            if (nyelv === "hu") {
+            if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Robert E. Kahn (1938. december 23 - napjainkig)";
                 document.getElementById("p1").textContent = "Amerikai informatikus, aki szorosan együttműködött Vinton Cerf-fel az internet protokolljainak (TCP/IP) kifejlesztésében. Kahn munkássága nagyban hozzájárult az internet kialakításához és terjesztéséhez, ami az emberiség számára az egyik legjelentősebb kommunikációs és információfeldolgozási eszköz lett.";
                 document.getElementById("p2").textContent = "Kahnnek és Cerfnek sikerült létrehozniuk az internet működéséhez szükséges protokollt, amely az adatok hatékony átvitelét és kommunikációját teszi lehetővé a hálózaton keresztül. Ez a TCP/IP protokollrendszer az internet alapvető működési elve, és a mai napig alapját képezi az online kommunikáció és az adatátvitel számára.";
@@ -216,7 +216,7 @@ let nyelv = localStorage.getItem('nyelv')
                 let klink = document.getElementById("klink");
                 klink.href = "https://hu.wikipedia.org/wiki/Bob_Kahn";
 
-            } else if (nyelv === "en") {
+            } else if (nyelv === "hu") {
                 document.getElementById("h1").textContent = "Robert E. Kahn (December 23, 1938 - to the present day)";
                 document.getElementById("p1").textContent = "American computer scientist who worked closely with Vinton Cerf in the development of Internet protocols (TCP/IP). Kahn's work greatly contributed to the development and spread of the Internet, which has become one of the most important means of communication and information processing for mankind.";
                 document.getElementById("p2").textContent = "Kahn and Cerf succeeded in creating the protocol necessary for the Internet to function, which enables the efficient transfer and communication of data over the network. This TCP/IP protocol system is the basic operating principle of the Internet and still forms the basis for online communication and data transfer.";
@@ -240,7 +240,7 @@ let nyelv = localStorage.getItem('nyelv')
                 
         }
         if (alaptudos === "J.C.R.") {
-            if (nyelv === "hu") {
+            if (nyelv === "en") {
                 document.getElementById("h1").textContent = "J.C.R. Licklider (1915. március 11 - 1990. június 26.)";
                 document.getElementById("p1").textContent = 'Amerikai pszichológus és informatikus volt, aki kulcsszerepet játszott az informatika és a számítástechnika korai fejlődésében. Licklider jelentős hozzájárulást tett az interaktív számítógépes rendszerek, valamint az ember-gép interfészek kutatásához és fejlesztéséhez. A legjelentősebb munkái közé tartozik az "Intergalactic Computer Network" című esszéje, amelyben előrevetítette az internet kialakulásának alapjait.';
                 document.getElementById("p2").textContent = "Licklider számos fontos pozíciót töltött be az Egyesült Államokban az információtechnológia területén. Dolgozott az ARPA (Advanced Research Projects Agency) munkatársaként, ahol fontos szerepet játszott az ARPANET (az internet elődje) koncepciójának kidolgozásában. Licklider megértette a számítógépek és az emberi felhasználók közötti hatékony kommunikáció és együttműködés fontosságát, és hozzájárult az interaktív számítógépes rendszerek kialakításához és fejlesztéséhez.";
@@ -259,7 +259,7 @@ let nyelv = localStorage.getItem('nyelv')
                 klink.href = "https://en.wikipedia.org/wiki/J._C._R._Licklider";
 
 
-            } else if (nyelv === "en") {
+            } else if (nyelv === "hu") {
                 document.getElementById("h1").textContent = "J.C.R. Licklider (March 11, 1915 - June 26, 1990)";
                 document.getElementById("p1").textContent = 'He was an American psychologist and computer scientist who played a key role in the early development of information technology and computing. Licklider has made significant contributions to the research and development of interactive computer systems and human-machine interfaces. Among his most significant works is his essay "Intergalactic Computer Network", in which he predicted the foundations of the Internet.';
                 document.getElementById("p2").textContent = "Licklider has held a number of important positions in information technology in the United States. He worked at ARPA (Advanced Research Projects Agency), where he played an important role in developing the concept of ARPANET (the predecessor of the Internet). Licklider understood the importance of effective communication and collaboration between computers and human users and contributed to the design and development of interactive computer systems.";
@@ -283,7 +283,7 @@ let nyelv = localStorage.getItem('nyelv')
 
         }
         if (alaptudos === "Robert M.") {
-            if (nyelv === "hu") {
+            if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Robert Metcalfe (1946. április 7 -napjainkig.)";
                 document.getElementById("p1").textContent = "Amerikai informatikus és vállalkozó, aki az Ethernet hálózati technológia megalkotója. Metcalfe munkássága nagyban hozzájárult az adatok gyors és hatékony átviteléhez a helyi hálózatokon keresztül, ami alapvető fontosságúvá vált a modern informatikai rendszerekben.";
                 document.getElementById("p2").textContent = "Metcalfe az Xerox PARC (Xerox Palo Alto Research Center) munkatársaként dolgozott az 1970-es évek elején, ahol az Ethernetet fejlesztette ki, egy olyan helyi hálózati technológiát, amely lehetővé teszi a számítógépek közötti kommunikációt. Az Ethernet protokollrendszer létrehozása forradalmasította a helyi hálózatokat, és az alapját képezte a modern számítógépes hálózatoknak.";
@@ -300,7 +300,7 @@ let nyelv = localStorage.getItem('nyelv')
                 link.href = "https://en.wikipedia.org/wiki/Robert_Metcalfe";
                 let klink = document.getElementById("klink");
                 klink.href = "https://en.wikipedia.org/wiki/Robert_Metcalfe";
-            } else if (nyelv === "en") {
+            } else if (nyelv === "hu") {
                 document.getElementById("h1").textContent = "Robert Metcalfe (April 7, 1946 to the present day.)";
                 document.getElementById("p1").textContent = "American computer scientist and entrepreneur who is the creator of Ethernet network technology. Metcalfe's work greatly contributed to the fast and efficient transfer of data over local area networks, which has become essential in modern IT systems.";
                 document.getElementById("p2").textContent = "Metcalfe worked at Xerox PARC (Xerox Palo Alto Research Center) in the early 1970s, where he developed Ethernet, a local area network technology that enables communication between computers. The creation of the Ethernet protocol system revolutionized local area networks and formed the basis of modern computer networks.";
@@ -325,7 +325,7 @@ let nyelv = localStorage.getItem('nyelv')
             
         }
         if (alaptudos === "Lawrence") {
-            if (nyelv === "hu") {
+            if (nyelv === "en") {
                 document.getElementById("h1").textContent = "Lawrence Roberts (1937. december 21 - 2018. december 26.)";
                 document.getElementById("p1").textContent = "Amerikai informatikus és mérnök volt, aki kiemelkedő szerepet játszott az ARPANET létrehozásában, amely az internet elődje volt. Roberts számos fontos technológiai innovációban vett részt, amelyek meghatározóak voltak az internetes kommunikáció és adatátvitel fejlődésében.";
                 document.getElementById("p2").textContent = "Roberts az ARPANET projekt vezetője volt az ARPA (Advanced Research Projects Agency) munkatársaként az 1960-as évek végén és az 1970-es évek elején. Az ARPANET az első kísérleti számítógépes hálózat volt, amelyet a katonai kutatás finanszírozott az Egyesült Államokban. Roberts irányítása alatt a kutatócsoport megalkotta az ARPANET alapvető protokolljait és technológiáit, amelyek lehetővé tették a számítógépek közötti kommunikációt és adatcsere folyamatát.";
@@ -342,7 +342,7 @@ let nyelv = localStorage.getItem('nyelv')
                 link.href = "https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)";
                 let klink = document.getElementById("klink");
                 klink.href = "https://jelenbolajovobe.blog.hu/2018/09/06/muholdas_kommunikacios_rendszerek_biztonsagi_resei";
-            } else if (nyelv === "en") {
+            } else if (nyelv === "hu") {
                 document.getElementById("h1").textContent = "Lawrence Roberts (December 21, 1937 - December 26th, 2018)";
                 document.getElementById("p1").textContent = "He was an American computer scientist and engineer who played a prominent role in the creation of the ARPANET, the precursor to the Internet. Roberts was involved in many important technological innovations that were decisive in the development of Internet communication and data transfer.";
                 document.getElementById("p2").textContent = "Roberts was the head of the ARPANET project as an employee of ARPA (Advanced Research Projects Agency) in the late 1960s and early 1970s. ARPANET was the first experimental computer network funded by military research in the United States. Under Roberts' direction, the research team created the basic protocols and technologies of the ARPANET, which enabled the communication and data exchange process between computers.";
